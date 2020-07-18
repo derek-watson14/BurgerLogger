@@ -1,0 +1,2 @@
+# BurgerLogger
+A restaurant app built with MySQL, Node, Express and Handlebars that lets users input the names of burgers they'd like to eat. Deployed on Heroku.
