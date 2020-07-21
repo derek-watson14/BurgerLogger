@@ -1,9 +1,10 @@
-<li>
-	{{burger_name}}
+<li class="collection-item">
+	<h6>{{burger_name}}</h6>
+	<span class="item-btn-container">
+		<button class="change-devour btn" data-id="{{id}}" data-newdevour="{{devoured}}">
+			{{#if devoured}}Another!{{else}}Devour it!{{/if}}
+		</button>
 
-	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
-		{{#if devoured}}THROW UP!{{else}}DEVOUR!{{/if}}
-	</button>
-
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+		<button class="delete-burger btn" data-id="{{this.id}}">Remove</button>
+	</span>
 </li>
